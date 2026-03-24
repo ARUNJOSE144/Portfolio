@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 import { TypeAnimation } from 'react-type-animation'
 import {
   FiArrowRight, FiExternalLink,
-  FiGithub, FiLinkedin, FiTwitter,
+  FiGithub, FiLinkedin,
 } from 'react-icons/fi'
 import { heroData } from '../data/portfolioData'
 
@@ -25,7 +25,6 @@ const orbVariants = {
 const socialIcons = {
   github:   FiGithub,
   linkedin: FiLinkedin,
-  twitter:  FiTwitter,
 }
 
 export default function Hero({ setActiveSection }) {
@@ -87,7 +86,7 @@ export default function Hero({ setActiveSection }) {
                          glass text-xs font-mono text-primary-300"
             >
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse-slow" />
-              Available for new opportunities
+              Senior Tech Lead · 9+ Years Experience
             </motion.div>
 
             {/* Greeting + name */}
@@ -229,7 +228,7 @@ export default function Hero({ setActiveSection }) {
               {[
                 { label: 'React', pos: '-top-2 -right-4', delay: 0 },
                 { label: 'AI/ML', pos: '-bottom-2 -left-4', delay: 0.2 },
-                { label: 'Node.js', pos: 'top-1/2 -right-10', delay: 0.4 },
+                { label: 'Spring Boot', pos: 'top-1/2 -right-14', delay: 0.4 },
               ].map(({ label, pos, delay }) => (
                 <motion.div
                   key={label}

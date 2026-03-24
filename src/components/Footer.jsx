@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
-import { FiGithub, FiLinkedin, FiTwitter, FiHeart } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiHeart } from 'react-icons/fi'
 import { navLinks } from '../data/portfolioData'
 import { contactData } from '../data/portfolioData'
 
 const socialIcons = {
   github:   FiGithub,
   linkedin: FiLinkedin,
-  twitter:  FiTwitter,
 }
 
 export default function Footer() {
@@ -32,7 +31,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed">
-              Full Stack Developer & AI Engineer crafting modern web experiences.
+              Senior Tech Lead crafting scalable enterprise web solutions.
             </p>
           </div>
 

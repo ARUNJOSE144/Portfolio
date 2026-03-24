@@ -137,7 +137,7 @@ export default function Experience({ setActiveSection }) {
             Work <span className="gradient-text">Experience</span>
           </motion.h2>
           <motion.p variants={fadeUp} className="section-subtitle max-w-xl mx-auto">
-            4+ years of shipping products, leading teams, and growing as an engineer.
+            9+ years at 6D Technologies — from Junior Developer to Senior Tech Lead.
           </motion.p>
         </motion.div>
 

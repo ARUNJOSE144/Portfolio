@@ -12,38 +12,37 @@ export const heroData = {
   greeting: "Hi, I'm",
   name: 'Arun Jose',
   roles: [
+    'Senior Tech Lead',
     'Full Stack Developer',
-    'AI Engineer',
+    'Spring Boot Developer',
     'React Specialist',
-    'Node.js Developer',
     'Problem Solver',
   ],
   description:
-    'I craft modern web experiences and intelligent systems that scale. Passionate about clean code, beautiful UIs, and AI-powered solutions.',
+    'Senior Tech Lead with 9+ years of experience building scalable web applications. Passionate about clean code, robust backend systems, and delivering high-quality solutions.',
   cta: {
     primary: { label: 'Hire Me',       href: '#contact'  },
     secondary:{ label: 'View Projects', href: '#projects' },
   },
   socials: {
-    github:   'https://github.com/',
-    linkedin: 'https://linkedin.com/',
-    twitter:  'https://twitter.com/',
+    github:   'https://github.com/ARUNJOSE144',
+    linkedin: 'https://www.linkedin.com/in/arun-jose-5422b0133/',
   },
 }
 
 // ─── ABOUT ────────────────────────────────────────────────────────────────────
 export const aboutData = {
   bio: [
-    "I'm a Full Stack Developer and AI Engineer with 4+ years of experience building scalable web applications and integrating machine learning into production systems.",
-    "I thrive at the intersection of great design and robust engineering — writing code that is clean, performant, and maintainable. When I'm not shipping features, I'm exploring the latest in AI/ML and open-source tooling.",
+    "I'm a Senior Tech Lead with 9+ years of experience at 6D Technologies Private Limited, building scalable web applications and enterprise solutions using Java, Spring Boot, and React.",
+    "I thrive at the intersection of great design and robust engineering — writing code that is clean, performant, and maintainable. I have grown from a junior developer to leading technical teams, delivering impactful solutions for clients.",
   ],
   highlights: [
-    { value: '4+',   label: 'Years Experience'  },
+    { value: '9+',   label: 'Years Experience'  },
     { value: '30+',  label: 'Projects Delivered' },
     { value: '15+',  label: 'Happy Clients'      },
     { value: '99%',  label: 'Client Satisfaction' },
   ],
-  resumeLink: '#',
+  resumeLink: 'https://drive.google.com/file/d/1ftXuVCqrOm94Ii_MZUciGk7K5tX6TLPU/view?usp=drive_link',
 }
 
 // ─── SKILLS ───────────────────────────────────────────────────────────────────
@@ -55,10 +54,10 @@ export const skillCategories = [
     skills: [
       { name: 'React',       level: 95 },
       { name: 'TypeScript',  level: 88 },
-      { name: 'Next.js',     level: 85 },
-      { name: 'Tailwind CSS',level: 92 },
-      { name: 'Framer Motion',level: 80 },
-      { name: 'Vue.js',      level: 72 },
+      { name: 'JavaScript',  level: 92 },
+      { name: 'jQuery',      level: 90 },
+      { name: 'CSS',         level: 88 },
+      { name: 'Bootstrap',   level: 85 },
     ],
   },
   {
@@ -66,12 +65,12 @@ export const skillCategories = [
     label: 'Backend',
     color: 'from-cyan-500 to-blue-600',
     skills: [
-      { name: 'Node.js',     level: 90 },
-      { name: 'Express',     level: 88 },
-      { name: 'Python',      level: 85 },
-      { name: 'FastAPI',     level: 80 },
-      { name: 'PostgreSQL',  level: 82 },
-      { name: 'MongoDB',     level: 78 },
+      { name: 'Spring Boot', level: 95 },
+      { name: 'Java',        level: 92 },
+      { name: 'Python',      level: 75 },
+      { name: 'SQL',         level: 90 },
+      { name: 'Oracle',      level: 85 },
+      { name: 'REST API',    level: 92 },
     ],
   },
   {
@@ -96,7 +95,6 @@ export const skillCategories = [
       { name: 'Docker',      level: 82 },
       { name: 'AWS',         level: 75 },
       { name: 'CI/CD',       level: 78 },
-      { name: 'Figma',       level: 70 },
       { name: 'Linux',       level: 80 },
     ],
   },
@@ -182,78 +180,79 @@ export const projects = [
 export const experiences = [
   {
     id: 1,
-    role: 'Senior Full Stack Developer',
-    company: 'TechVision Labs',
-    period: 'Jan 2023 – Present',
+    role: 'Senior Tech Lead',
+    company: '6D Technologies Private Limited',
+    period: '2016 – Present',
     type: 'Full-time',
     description:
-      'Leading development of AI-integrated web platforms. Architected a microservices system serving 200k+ users, reduced API latency by 40%, and mentored a team of 5 engineers.',
+      'Started as a Junior Developer and grew through the ranks to Senior Tech Lead over 9+ years. Leading end-to-end development of enterprise-grade web applications, architecting scalable backend systems, and mentoring cross-functional development teams.',
     achievements: [
-      'Reduced page load time by 60% via code splitting & CDN optimization',
-      'Built real-time collaboration features used by Fortune 500 clients',
-      'Integrated GPT-4 into core product, boosting user engagement by 35%',
+      'Promoted from Junior Developer to Senior Tech Lead within the same organization over 9+ years',
+      'Architected and delivered 30+ enterprise projects using Spring Boot, Java, React, and Oracle',
+      'Led a team of developers, driving agile practices and reducing delivery timelines by 40%',
+      'Designed RESTful API platforms serving thousands of concurrent users with high availability',
+      'Implemented CI/CD pipelines and DevOps practices that reduced deployment time by 50%',
     ],
-    tech: ['React', 'Node.js', 'PostgreSQL', 'AWS', 'Docker'],
+    tech: ['Spring Boot', 'Java', 'React', 'Oracle', 'SQL', 'REST API', 'Docker', 'AWS'],
     color: 'from-violet-500 to-purple-600',
   },
   {
     id: 2,
-    role: 'Full Stack Developer',
-    company: 'InnovateSoft Inc.',
-    period: 'Jun 2021 – Dec 2022',
+    role: 'Tech Lead',
+    company: '6D Technologies Private Limited',
+    period: '2020 – 2022',
     type: 'Full-time',
     description:
-      'Built and maintained 10+ client-facing applications. Delivered e-commerce solutions with advanced search, payment processing, and inventory management.',
+      'Led multiple product teams in delivering scalable backend services and modern frontend interfaces. Established coding standards, conducted code reviews, and collaborated with stakeholders to translate business requirements into technical solutions.',
     achievements: [
-      'Delivered 8 projects on time with 98% client satisfaction',
-      'Built custom CMS used by 50+ non-technical team members',
-      'Introduced automated testing, reducing production bugs by 50%',
+      'Led development of a high-traffic enterprise portal used by 100k+ users',
+      'Introduced automated testing frameworks reducing production defects by 60%',
+      'Mentored junior and mid-level developers, improving team productivity by 30%',
     ],
-    tech: ['Vue.js', 'Express', 'MongoDB', 'Redis', 'Stripe'],
+    tech: ['Spring Boot', 'React', 'SQL', 'Bootstrap', 'REST API', 'Git'],
     color: 'from-cyan-500 to-blue-600',
   },
   {
     id: 3,
-    role: 'Frontend Developer',
-    company: 'PixelCraft Agency',
-    period: 'Aug 2020 – May 2021',
+    role: 'Senior Developer',
+    company: '6D Technologies Private Limited',
+    period: '2018 – 2020',
     type: 'Full-time',
     description:
-      'Developed pixel-perfect, responsive UI components for agency clients. Collaborated closely with designers to translate Figma mockups into production code.',
+      'Designed and developed scalable full-stack web applications for enterprise clients. Responsible for backend API design, database optimization, and frontend development.',
     achievements: [
-      'Built a design system adopted across 12 client projects',
-      'Improved Lighthouse scores from 60 to 95+ on key projects',
-      'Reduced development time by 30% with reusable component library',
+      'Developed RESTful APIs consumed by mobile and web clients with 99.9% uptime',
+      'Optimized Oracle database queries improving application performance by 45%',
+      'Built reusable UI component library using React, Bootstrap, and jQuery',
     ],
-    tech: ['React', 'SCSS', 'TypeScript', 'Storybook', 'Figma'],
+    tech: ['Java', 'Spring Boot', 'Oracle', 'React', 'jQuery', 'CSS'],
     color: 'from-emerald-500 to-teal-600',
   },
   {
     id: 4,
-    role: 'Junior Developer (Intern → FTE)',
-    company: 'StartupHub',
-    period: 'Jan 2020 – Jul 2020',
-    type: 'Internship → Full-time',
+    role: 'Junior Developer',
+    company: '6D Technologies Private Limited',
+    period: '2016 – 2018',
+    type: 'Full-time',
     description:
-      'Joined as intern, converted to full-time within 3 months. Worked on the core product dashboard and mobile-responsive redesign.',
+      'Began my career at 6D Technologies, contributing to full-stack web development projects. Gained hands-on experience with Java, Spring, and frontend technologies.',
     achievements: [
-      'Completed 6-month internship project in 3 months',
-      'Redesigned the main dashboard improving usability scores by 45%',
-      'Contributed to open-source component library with 300+ stars',
+      'Contributed to 10+ client projects within the first two years',
+      'Developed responsive UI components using HTML, CSS, Bootstrap, and jQuery',
+      'Built and maintained SQL and Oracle database schemas for enterprise applications',
     ],
-    tech: ['JavaScript', 'React', 'CSS', 'REST APIs'],
+    tech: ['Java', 'Spring', 'SQL', 'jQuery', 'Bootstrap', 'HTML', 'CSS'],
     color: 'from-orange-500 to-rose-600',
   },
 ]
 
 // ─── CONTACT ──────────────────────────────────────────────────────────────────
 export const contactData = {
-  email: 'arun.jose@example.com',
-  phone: '+1 (555) 123-4567',
-  location: 'San Francisco, CA',
+  email: 'arun.jose144@gmail.com',
+  phone: '+91 8891784776',
+  location: 'Ernakulam, India',
   socials: [
-    { label: 'GitHub',   href: 'https://github.com/',    icon: 'github'   },
-    { label: 'LinkedIn', href: 'https://linkedin.com/',  icon: 'linkedin' },
-    { label: 'Twitter',  href: 'https://twitter.com/',   icon: 'twitter'  },
+    { label: 'GitHub',   href: 'https://github.com/ARUNJOSE144',                        icon: 'github'   },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/arun-jose-5422b0133/',      icon: 'linkedin' },
   ],
 }

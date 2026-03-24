@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import {
   FiSend, FiMail, FiPhone, FiMapPin,
-  FiGithub, FiLinkedin, FiTwitter,
+  FiGithub, FiLinkedin,
 } from 'react-icons/fi'
 import SectionWrapper, { fadeUp, stagger, slideLeft, slideRight } from './SectionWrapper'
 import { contactData } from '../data/portfolioData'
@@ -10,7 +10,6 @@ import { contactData } from '../data/portfolioData'
 const socialIcons = {
   github:   FiGithub,
   linkedin: FiLinkedin,
-  twitter:  FiTwitter,
 }
 
 const contactInfo = [
