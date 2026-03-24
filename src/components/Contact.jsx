@@ -52,11 +52,20 @@ export default function Contact({ setActiveSection }) {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setStatus('sending')
-    // Simulate API call
-    await new Promise(r => setTimeout(r, 1500))
-    setStatus('sent')
-    setForm({ name: '', email: '', message: '' })
-    setTimeout(() => setStatus('idle'), 5000)
+    const googleFormUrl = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSdNFrucEKeyAA2BX71OtsKnJihf8PT1W5mJvDDe_xcPMfSxRg/formResponse'
+    const body = new FormData()
+    body.append('entry.1079098506', form.name)
+    body.append('entry.1097799858', form.email)
+    body.append('entry.873287494', form.message)
+    try {
+      await fetch(googleFormUrl, { method: 'POST', mode: 'no-cors', body })
+      setStatus('sent')
+      setForm({ name: '', email: '', message: '' })
+      setTimeout(() => setStatus('idle'), 5000)
+    } catch {
+      setStatus('error')
+      setTimeout(() => setStatus('idle'), 5000)
+    }
   }
 
   return (
